@@ -3,7 +3,7 @@
 ```
 bindPort = 7788
 auth.method = "token"
-auth.token = "设置你的密码"
+auth.token = "设置你的服务端token密码"
 webServer.addr = "0.0.0.0"
 webServer.port = 7799
 webServer.user = "设置网页用户名"
@@ -15,7 +15,7 @@ user = "hh"
 serverAddr = "8.8.8.8"
 serverPort = 7788
 auth.method = "token"
-auth.token = "设置你的密码"
+auth.token = "之前设置的服务端token密码"
 
 [[proxies]]
 name = "alist"
