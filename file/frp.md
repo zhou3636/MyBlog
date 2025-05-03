@@ -1,4 +1,4 @@
-## [最新版本下载地址](https://github.com/fatedier/frp)
+## FRP软件 [下载](https://github.com/fatedier/frp)
 ## 1.服务端fprs.toml
 ```
 bindPort = 7788
