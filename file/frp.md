@@ -11,18 +11,18 @@ webServer.password = "设置网页密码"
 ```
 ## 2.客户端fprc.toml
 ```
-user = "hh"
-serverAddr = "8.8.8.8"
+user = "name"
+serverAddr = "服务器地址"
 serverPort = 7788
 auth.method = "token"
 auth.token = "之前设置的服务端token密码"
 
-[[proxies]]
-name = "alist"
+[[remot]]
+name = "ssh"
 type = "tcp"
 localIP = "127.0.0.1"
-localPort = 5443
-remotePort = 5443
+localPort = 3889
+remotePort = 3889
 ```
 ## 3.linux服务器配置程序  
 安装systemd  
