@@ -33,6 +33,7 @@ html, body {
     height: 40px;
     margin-left: 30px;
     margin-right: 10px;
+    border-radius: 50%;
 }
 
 /* 导航栏中的标题 */
