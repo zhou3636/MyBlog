@@ -79,13 +79,13 @@ html, body {
 .container .container-right {
     height: 100%;
     width: 795px;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
 }
 
 /* 用户信息卡片，也会在多个页面中用到 */
 .card {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
     padding: 30px;
     border: 1px solid #d5d5d5;
