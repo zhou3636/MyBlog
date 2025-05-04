@@ -1,9 +1,10 @@
+/* 设置链接的颜色 */
 a:link {
     color: rgb(0, 0, 0);
     text-decoration: none;
     }
-    /* 设置鼠标悬停时链接的颜色为红色 */
-    a:hover {
+/* 设置鼠标悬停时链接的颜色 */
+a:hover {
     color: rgb(0, 52, 115);
     text-decoration: none;
     }
