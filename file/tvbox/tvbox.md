@@ -2,7 +2,7 @@
 <https://tvbox.clbug.com>  
 <https://github.com/o0HalfLife0o/TVBoxOSC/releases>  
 <https://github.com/cyao2q/files>  
-我在用的[下载](TVBox_q215613905_20241029-0923.apk)
+我在用的[123盘]([TVBox_q215613905_20241029-0923.apk](https://www.123684.com/s/4wHDVv-78Bq3?提取码:kXms))提取码`kXms`
 
 ## 使用方法  
 把安装包存到U盘插入电视上安装  
