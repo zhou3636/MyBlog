@@ -2,6 +2,7 @@
 <https://tvbox.clbug.com>  
 <https://github.com/o0HalfLife0o/TVBoxOSC/releases>  
 <https://github.com/cyao2q/files>  
+[我在用的](TVBox_q215613905_20241029-0923.apk)
 
 ### 使用方法  
 把安装包存到U盘插入电视上安装  
