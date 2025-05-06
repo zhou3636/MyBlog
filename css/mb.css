@@ -8,14 +8,17 @@
 
 html, body {
     /* 和父元素的一样高，body 的父亲是 html，html 的父亲是浏览器窗口 */
-    width: 400px;
+    width: 360px;
     height: 100%;
     /* 页面背景 */
     background-color:rgb(221, 247, 255);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* 导航栏 */
 .nav {
-    width: 400px;
+    width: 100%;
     height: 50px;
     background-color: rgba(50, 50, 50, 0.2);
     color: #fff;
@@ -43,6 +46,6 @@ html, body {
 /* 版心的样式 */
 .container {
     height: calc(100% - 50px);
-    width: 400px;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.5);
 }
