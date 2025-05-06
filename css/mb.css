@@ -12,10 +12,6 @@ html, body {
     height: 100%;
     /* 页面背景 */
     background-color:rgb(221, 247, 255);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 /* 导航栏 */
 .nav {
     width: 100%;
