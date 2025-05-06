@@ -6,21 +6,14 @@
     box-sizing: border-box;
 }
 
-html, body {
-    /* 和父元素的一样高，body 的父亲是 html，html 的父亲是浏览器窗口 */
-    width: 360px;
-    height: 100%;
-    /* 页面背景 */
-    background-color:rgb(221, 247, 255);
 /* 导航栏 */
 .nav {
-    width: 100%;
-    height: 50px;
-    background-color: rgba(50, 50, 50, 0.2);
-    color: #fff;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(221, 247, 255);
     display: flex;
     justify-content: start;
-    align-items: center;
+    align-items: center;    
 }
 
 /* 导航栏中的 log */
@@ -35,13 +28,12 @@ html, body {
 
 /* 导航栏中的标题 */
 .nav .title {
-    width: 120px;
+    width: 100vw;
     color: black;
     font-size: 20px;
 }
 /* 版心的样式 */
 .container {
-    height: calc(100% - 50px);
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.5);
+    width: 100vw;
+    height: 100vh;
 }
