@@ -19,10 +19,10 @@ a:link {
     cursor:default
     }  
 /* 设置鼠标悬停时链接的颜色 */
-a:hover {
-    text-decoration: none;
-    }
-    
+a:hover {}
+a:visited {
+    color: black;
+}    
 /* 这个 CSS 专门针对博客列表页来设置样式 */
 
 .blog {
