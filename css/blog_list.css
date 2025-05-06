@@ -10,7 +10,7 @@
 html, body {
     /* 和父元素的一样高，body 的父亲是 html，html 的父亲是浏览器窗口 */
     height: 100%;
-    background-color:rgba(255, 255, 255, 0.5);
+    /* background-color:rgba(255, 255, 255, 0.5); */
 }
 /* 设置链接的颜色 */
 a:link {
@@ -20,7 +20,6 @@ a:link {
     }  
 /* 设置鼠标悬停时链接的颜色 */
 a:hover {
-    color: rgb(0, 52, 115);
     text-decoration: none;
     }
     
@@ -35,7 +34,7 @@ a:hover {
 }
 /* 设置鼠标悬停时div的颜色 */
 .blog:hover {
-    background-color: rgba(255, 167, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.04);
 }
 /* 博客的标题 */
 .blog .title {
@@ -55,32 +54,8 @@ a:hover {
 }
 
 /* 博客的描述 */
-.blog .desc {
-    text-indent: 2em;
-}
 
 /* 查看博客详情的按钮 */
-.blog .detail {
-    display: block;
-    width: 120px;
-    color: grey;
-    height: 30px;
-    /* 设置边框 */
-    border: 2px solid grey;
-    /* 文字水平居中 */
-    text-align: center;
-    /* 文字垂直居中 */
-    line-height: 30px;
-    /* 去掉下划线 */
-    text-decoration: none;
-    /* 让按钮来到屏幕中间 */
-    margin: 10px auto;
-    /* 加上一个过度效果 */
-    transition: all 1s;
-}
+
 
 /* 实现鼠标悬停在按钮上时有一个背景色切换的效果 */
-.blog .detail:hover {
-    background-color: grey;
-    color: white;
-}
