@@ -43,9 +43,9 @@ a:visited {
 /* 博客的标题 */
 .blog .title {
     text-align: left;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 700;
-    padding-top: 5px;
+    padding-top: 7px;
     padding-bottom: 5px;
 }
 
@@ -53,7 +53,7 @@ a:visited {
 .blog .date {
     text-align: left;
     font-size: 14px;
-    padding-bottom: 3px;
+    padding-bottom: 5px;
     color: grey;
 }
 

@@ -8,7 +8,7 @@
 
 html, body {
     /* 和父元素的一样高，body 的父亲是 html，html 的父亲是浏览器窗口 */
-    height: 100%;
+    height: 200%;
     /* 页面背景 */
     background-color: rgb(209, 244, 255);
     background-position: center center;
@@ -111,13 +111,10 @@ html, body {
     display: block;
     text-decoration: none;
     text-align: center;
-    color: grey;
+    color: rgb(8, 0, 34);
     padding: 3px;
+    cursor:default
 }
-
-.card .counter {
-    display: flex;
-    justify-content: space-around;
-    font-size: 15px;
-    padding-top: 5px;
+.card a:hover{
+    color: rgb(0, 107, 137);
 }
