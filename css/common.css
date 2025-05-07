@@ -10,7 +10,7 @@ html, body {
     /* 和父元素的一样高，body 的父亲是 html，html 的父亲是浏览器窗口 */
     height: 100%;
     /* 页面背景 */
-    background-color: rgba(209, 244, 255, 0.6);
+    background-color: rgb(209, 244, 255);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,7 +60,7 @@ html, body {
 
 /* 版心的样式 */
 .container {
-    height: calc(100% - 50px);
+    height: calc(100% - 55px);
     width: 1000px;
     margin: 0 auto;
     /* 为了让版心里面的子元素能够以左右布局的方式显示，使用 flex 布局 */
