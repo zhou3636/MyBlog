@@ -1,7 +1,7 @@
 ## 地址
-<https://tvbox.clbug.com>{target="_blank"}  
-<https://github.com/o0HalfLife0o/TVBoxOSC/releases>{target="_blank"}  
-<https://github.com/cyao2q/files>{target="_blank"}  
+<https://tvbox.clbug.com?_blank>  
+<https://github.com/o0HalfLife0o/TVBoxOSC/releases>  
+<https://github.com/cyao2q/files>  
 
 [123云盘](https://www.123684.com/s/4wHDVv-b8Bq3?提取码:mBrt){target="_blank"} 提取码`mBrt`
 
