@@ -1,9 +1,9 @@
 ## 地址
-<https://tvbox.clbug.com>  
-<https://github.com/o0HalfLife0o/TVBoxOSC/releases>  
-<https://github.com/cyao2q/files>  
+<https://tvbox.clbug.com>{target="_blank"}  
+<https://github.com/o0HalfLife0o/TVBoxOSC/releases>{target="_blank"}  
+<https://github.com/cyao2q/files>{target="_blank"}  
 
-[123云盘](https://www.123684.com/s/4wHDVv-b8Bq3?提取码:mBrt) 提取码`mBrt`
+[123云盘](https://www.123684.com/s/4wHDVv-b8Bq3?提取码:mBrt){target="_blank"} 提取码`mBrt`
 
 ## 使用方法  
 把安装包存到U盘插入电视上安装  
