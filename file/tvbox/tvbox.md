@@ -1,5 +1,5 @@
 ## 地址
-<https://tvbox.clbug.com?_blank>  
+<https://tvbox.clbug.com>{:target="_blank"}  
 <https://github.com/o0HalfLife0o/TVBoxOSC/releases>  
 <https://github.com/cyao2q/files>  
 
