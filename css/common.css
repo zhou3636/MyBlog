@@ -31,19 +31,17 @@ html, body {
 .nav img {
     width: 40px;
     height: 40px;
-    margin-left: 30px;
-    margin-right: 10px;
+    margin-left: 15px;
+    margin-right: 0px;
     border-radius: 50%;
     border: 1px solid #000000;
 }
 
 /* 导航栏中的标题 */
 .nav .title {
-    width: 120px;
-    color: black;
-    font-size: 20px;
+    width: 180px;
+    font-size: 20px;  
 }
-
 /* 导航栏中的占位符 */
 .nav .spacer {
     height: 40px;
@@ -53,9 +51,10 @@ html, body {
 /* 导航栏中的链接 */
 .nav a {
     width: 60px;
-    margin: 20px;
+    margin: 10px;
     text-decoration: none;
-    color: white;
+    color: rgb(48, 48, 48);
+    cursor:default
 }
 
 /* 版心的样式 */
@@ -68,7 +67,6 @@ html, body {
     align-items: center;
     justify-content: space-between;
 }
-
 /* 左侧区域样式 */
 .container .container-left {
     height: 100%;
@@ -115,6 +113,6 @@ html, body {
     padding-top: 5px;
     cursor:default
 }
-.card a:hover{
-    color: rgb(0, 107, 137);
+a:hover{
+    color: rgb(82, 0, 137);
 }
