@@ -86,7 +86,7 @@ html, body {
 /* 用户信息卡片，也会在多个页面中用到 */
 .card {
     background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 20px;
+    border-radius: 15px;
     padding: 30px;
     border: 1px solid #d5d5d5;
 }
@@ -95,8 +95,8 @@ html, body {
 .card img {
     width: 140px;
     height: 140px;
-    border-radius: 15%;
-    border: 2px solid #000000;
+    border-radius: 8px;
+    border: 1px solid #d5d5d5;
 }
 
 /* 用户名 */
