@@ -20,6 +20,9 @@ a:link {
     }  
 a:visited {
     color: black;
+}
+a:hover{
+    color: rgb(0, 2, 112);
 }    
 /* 这个 CSS 专门针对博客列表页来设置样式 */
 
