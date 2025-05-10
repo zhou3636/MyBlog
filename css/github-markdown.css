@@ -3,12 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-@media screen and (max-width: 720px) {}
-body{
-  width: 70%;
+@media screen and (max-width: 1000px) {body {
+  width: 96%;
   margin: auto; 
-  min-width:350px;
-}
+  }}
+@media screen and (min-width: 1001px) {body {
+    width: 1000px;
+    margin: auto; 
+    }}
 .markdown-body {
   --base-size-4: 0.25rem;
   --base-size-8: 0.5rem;
