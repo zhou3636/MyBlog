@@ -9,8 +9,8 @@
 /* 导航栏 */
 .nav {
     width: 100vw;
-    height: 10vh;
-    background-color: rgb(221, 247, 255);
+    height: 50px;
+    background-color: #3470c0;
     display: flex;
     justify-content: start;
     align-items: center;    
@@ -29,7 +29,7 @@
 /* 导航栏中的标题 */
 .nav .title {
     width: 100vw;
-    color: black;
+    color: #ffffff;
     font-size: 20px;
 }
 /* 版心的样式 */

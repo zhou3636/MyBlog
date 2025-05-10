@@ -6,12 +6,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-html, body {
-    /* 和父元素的一样高，body 的父亲是 html，html 的父亲是浏览器窗口 */
-    height: 100%;
-    /* background-color:rgba(255, 255, 255, 0.5); */
-}
 /* 设置链接的颜色 */
 a:link {
     color: rgb(0, 0, 0);
