@@ -9,7 +9,7 @@
 /* 导航栏 */
 .nav {
     width: 100vw;
-    height: 50px;
+    height: 70px;
     background-color: #3470c0;
     display: flex;
     justify-content: start;
