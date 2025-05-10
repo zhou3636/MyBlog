@@ -1,6 +1,6 @@
 ### X-UI搭建  
 FinalShell SSH工具 [下载](https://www.hostbuf.com/t/988.html)  
-系统Ubuntu/Debian
+系统Ubuntu/Debian  
 `apt update -y && apt install -y curl`  
 `bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install.sh) 0.3.4.4`  
 ### 开启BBR加速
