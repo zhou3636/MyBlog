@@ -59,12 +59,11 @@ html, body {
 
 /* 版心的样式 */
 .container {
-    height: calc(100% - 55px);
     width: 100%;
     margin: 0 auto;
     /* 为了让版心里面的子元素能够以左右布局的方式显示，使用 flex 布局 */
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
 /* 左侧区域样式 */
