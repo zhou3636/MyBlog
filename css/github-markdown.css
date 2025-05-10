@@ -1,6 +1,13 @@
-body {
-  width: 1000px;
-  margin: auto;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 720px) {}
+body{
+  width: 70%;
+  margin: auto; 
+  min-width:350px;
 }
 .markdown-body {
   --base-size-4: 0.25rem;
