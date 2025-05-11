@@ -8,9 +8,9 @@
   margin: auto; 
   }}
 @media screen and (min-width: 1001px) {body {
-    width: 1000px;
-    margin: auto; 
-    }}
+  width: 98%;
+  margin: auto; 
+  }}
 .markdown-body {
   --base-size-4: 0.25rem;
   --base-size-8: 0.5rem;
