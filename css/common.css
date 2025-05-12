@@ -15,10 +15,6 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
 } 
-
-.card a:hover {
-    color: rgb(10, 2, 112);
-}
 a:visited {
     color: rgb(0, 0, 0);
 }
@@ -96,6 +92,16 @@ a:visited {
     border-radius: 8px;
     padding: 30px;
     border: 1px solid rgba(0, 0, 0, 0.2);
+    height: 310px;
+}
+.card h4{
+    font-size: 16px;
+    transition: font-size 0.2s ease; /* 添加过渡效果 */
+    cursor: pointer;
+}
+/* 鼠标悬停时的效果 */
+.card h4:hover {
+    font-size: 18px; /* 悬停时字体变大 */
 }
 .card a:link {
     color: #000000;
