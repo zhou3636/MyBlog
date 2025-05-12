@@ -1,16 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-@media screen and (max-width: 1000px) {body {
+
+body {
   width: 96%;
-  margin: auto; 
-  }}
-@media screen and (min-width: 1001px) {body {
-  width: 98%;
-  margin: auto; 
-  }}
+  margin: 0 auto;
+}
 .markdown-body {
   --base-size-4: 0.25rem;
   --base-size-8: 0.5rem;
@@ -22,7 +14,7 @@
   --base-text-weight-semibold: 600;
   --fontStack-monospace: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
   --fgColor-accent: Highlight;
-}
+}  
 @media (prefers-color-scheme: dark) {
   .markdown-body, [data-theme="dark"] {
     /* dark */

@@ -1,5 +1,6 @@
 .markdown-body {
-    width: 100%
+    width: 98%;
+    margin: 0 auto;
 }
 
 .markdown-body .octicon {
