@@ -92,17 +92,10 @@ a:visited {
     border-radius: 8px;
     padding: 30px;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    height: 310px;
-}
-.card h4{
-    font-size: 16px;
-    transition: font-size 0.2s ease; /* 添加过渡效果 */
-    cursor: pointer;
+    height: 300px;
 }
 /* 鼠标悬停时的效果 */
-.card h4:hover {
-    font-size: 18px; /* 悬停时字体变大 */
-}
+
 .card a:link {
     color: #000000;
 }
@@ -128,5 +121,16 @@ a:visited {
     text-align: center;
     padding-top: 5px;
     cursor:default
+}
+.card .aa {
+    width: 100%;
+    height: 22px;
+    text-align: center;
+    line-height: 10px;
+    font-size: 16px;
+    /* cursor: pointer;border: 1px solid ; */
+}
+.card .aa:hover {
+    font-size: 17px; /* 悬停时字体变大 */
 }
 
