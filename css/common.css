@@ -115,24 +115,26 @@ a:visited {
 /* 其它信息 */
 .card a {
     /* a 标签是行内元素，设置尺寸、边距都可能失效，要转成块级元素 */
-    display: block;
+    /* display: block; */
     text-decoration: none;
     text-align: center;
-    padding-top: 5px;
+    /* padding-top: 5px; */
     cursor:default
 }
 .card .aa {
     width: 100%;
     height: 25px;
     text-align: center;
-    line-height: 12px;
+    line-height: 23px;
     font-size: 16px;
-    /* cursor: pointer;border: 1px solid ; */
+
 }
 .card .aa:hover {
     font-size: 17px; /* 悬停时字体变大 */
 }
 .card .aa:hover {
     background-color: rgba(0, 0, 0, 0.05);
-    cursor: pointer;border: 1px solid #000000;
+    cursor: default;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
 }
