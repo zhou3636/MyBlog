@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iframe 自适应父级</title>
+  <style>
+    .parent {
+      width: 80%; /* 父级宽度 */
+      height: 400px; /* 父级高度 */
+      border: 2px solid #000; /* 可选：边框用于显示父级大小 */
+      margin: 0 auto;
+    }
+    .responsive-iframe {
+      width: 100%; /* 使 iframe 宽度适应父级 */
+      height: 100%; /* 使 iframe 高度适应父级 */
+      border: none; /* 可选：去除 iframe 自身的边框 */
+    }
+  </style>
+</head>
+<body>
+  <div class="parent">
+    <iframe class="responsive-iframe" src="https://www.example.com"></iframe>
+  </div>
+</body>
+</html>
