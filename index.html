@@ -4,9 +4,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>食不食油饼</title>
-    <base target="_blank">
+    <!-- <base target="_blank"> -->
     <link rel="stylesheet" media="screen and (min-width: 500px)" href="css/c1.css">
     <link rel="stylesheet" media="screen and (max-width: 499px)" href="css/c2.css">
+    <link rel="stylesheet" href="j/j.css">
+    
+
 </head>
 <body>
     <!-- 导航栏 -->
@@ -23,14 +26,21 @@
                 <!-- 用户的头像 -->
                 <img src="image/kk.jpg" alt="">
                 <!-- 用户名 -->
-                <h3>食不食油饼</h3>
+                <div class="aaa"><a href="#" id="open-popup"><h3>点击唱跳Rap</h3></a></div>
+                     <!-- 弹窗内容 -->
+                <div id="overlay"></div>
+                <div id="popup">
+                <span id="popup-close">×</span>
+                <iframe class="if" src="j/j.html"></iframe>
+                </div>
+                <script src="j/j.js"></script>
                 <!-- 其它信息 -->
-                <div class="aa"><a href="https://www.bilibili.com/">Bilibili</a></div>
-                <div class="aa"><a href="https://www.bing.com/">必应搜索</a></div>
-                <div class="aa"><a href="https://www.baidu.com/">百度搜索</a></div>
-                <div class="aa"><a href="https://www.cloudflare.com/">Cloudflare</a></div>
-                <div class="aa"><a href="https://www.github.com/">GitHub</a></div>
-                <div class="aa"><a href="https://www.bing.com/translator/">微软翻译</a></div>   
+                <div class="aa"><a href="https://www.bilibili.com/" target="_blank">Bilibili</a></div>
+                <div class="aa"><a href="https://www.bing.com/" target="_blank">必应搜索</a></div>
+                <div class="aa"><a href="https://www.baidu.com/" target="_blank">百度搜索</a></div>
+                <div class="aa"><a href="https://www.cloudflare.com/" target="_blank">Cloudflare</a></div>
+                <div class="aa"><a href="https://www.github.com/" target="_blank">GitHub</a></div>
+                <div class="aa"><a href="https://www.bing.com/translator/" target="_blank">微软翻译</a></div>   
             </div>
         </div>
      <!-- 中间区域，显示博客列表 -->
