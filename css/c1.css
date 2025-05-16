@@ -50,19 +50,18 @@ a:visited {
 }
 /* 导航栏中的占位符 */
 .nav .spacer {
+    display: none;
     height: 40px;
     width: calc(100% - 250px);
 }
-
 /* 导航栏中的链接 */
 .nav a {
     width: 60px;
     text-decoration: none;
-    /* color: #ffffff00; */
     cursor:default
 }
-.nav p { 
-    font-size: 0px; 
+.ctrap {
+    display: none;
 }
 /* 版心的样式 */
 .container {

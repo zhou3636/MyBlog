@@ -22,9 +22,6 @@ a:visited {
     justify-content: start;
     align-items: center;
 }
-.nav .title a {
-    color: rgb(255, 255, 255);
-}
 .nav a:hover{
     color: rgb(5, 0, 26);
 }  
@@ -41,39 +38,36 @@ a:visited {
 /* 导航栏中的标题 */
 .nav .title {
     width: 125px;
-    font-size: 18px;
+    font-size: 20px;
 }
 /* 导航栏中的占位符 */
 .nav .spacer {
     height: 40px;
-    width: calc(100% - 255px);
+    width: calc(100% - 260px);
 }
-
+.ctrap {
+    width: 60px;
+}
 /* 导航栏中的链接 */
 .nav a {
-    width: 60px;
-    /* margin: 10px; */
     text-decoration: none;
     color: #ffffff;
-    cursor:default
 }
 .nav p { 
-    font-size: 18px;
+    font-size: 20px;
 }
 /* 版心的样式 */
 .container {
     width: 100%;
     height: calc(100% - 70px);
     margin: 0 auto;
-    /* 为了让版心里面的子元素能够以左右布局的方式显示，使用 flex 布局 */
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
 }
 /* 左侧区域样式 */
 .container .container-left {
-    height: 0px;
-    width: 0px;
+    display: none;
 }
 
 /* 右侧区域样式 */
@@ -82,7 +76,4 @@ a:visited {
     width: 100%;
     background-color: #ffffff;
     border-radius: 8px;
-}
-.card img {
-    width: 0px;
 }
