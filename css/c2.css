@@ -25,9 +25,9 @@ a:visited {
 .nav .title a {
     color: rgb(255, 255, 255);
 }
-.nav .title a:hover{
+.nav a:hover{
     color: rgb(5, 0, 26);
-}    
+}  
 /* 导航栏中的 log */
 .nav img {
     width: 50px;
