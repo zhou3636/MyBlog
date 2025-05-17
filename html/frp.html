@@ -1,91 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ikun</title>
-    <link rel="icon" type="image/x-icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../css/markdown.css">
-    <base target="_blank">
+  <meta charset="UTF-8">
+  <title>ikun</title>
+  <link rel="stylesheet" href="ghmd.css">
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <base target="_blank">
 </head>
 <body>
-    <div class="markdown-body">
-        <!-- 粘贴到下面 -->
-        <h2 id="frphttpsgithubcomfatedierfrp">FRP软件 <a href="https://github.com/fatedier/frp">下载</a></h2>
-<h2 id="1fprstoml">1.服务端配置文件fprs.toml</h2>
-<pre><code>bindPort = 7788
-auth.method = "token"
-auth.token = "设置你的服务端token密码"
-webServer.addr = "0.0.0.0"
-webServer.port = 7799
-webServer.user = "设置网页用户名"
-webServer.password = "设置网页密码"
-</code></pre>
-<h2 id="2fprctoml">2.客户端配置文件fprc.toml</h2>
-<pre><code>user = "name"
-serverAddr = "服务器地址"
-serverPort = 7788
-auth.method = "token"
-auth.token = "之前设置的服务端token密码"
-
-[[remot]]
-name = "ssh"
-type = "tcp"
-localIP = "127.0.0.1"
-localPort = 3889
-remotePort = 3889
-</code></pre>
-<h2 id="3linux">3.linux服务器配置程序</h2>
-<p>安装systemd  </p>
-<pre><code>apt install systemd
-</code></pre>
-<p><br />
-编辑  </p>
-<pre><code>vi /etc/systemd/system/frps.service
-</code></pre>
-<p><br />
-粘贴以下  </p>
-<pre><code>[Unit]
-Description = frps server
-After = network.target syslog.target
-Wants = network.target
-[Service]
-Type = simple
-#启动frps的命令，需修改为您的frps的安装路径
-ExecStart = /opt/frp/frps -c /opt//frp/frps.toml
-[Install]
-WantedBy = multi-user.target
-</code></pre>
-<h4 id="frps">管理frps命令</h4>
-<pre><code># 启动frp命令  
-systemctl start frps
-# 停止frp
-systemctl stop frps
-# 重启frp
-systemctl restart frps
-# 查看frp状态
-systemctl status frps
-# 配置 frps 开机自启
-systemctl enable frps
-# 禁止开机启动
-systemctl disable frps
-</code></pre>
-<h2 id="4win">4.win客户端配置</h2>
-<h4 id="cmd">CMD运行</h4>
-<pre><code>frpc.exe -c frpc.toml
-</code></pre>
-<h4 id="">后台运行</h4>
-<p>--创建<code>frpc.bat</code>编辑输入  </p>
-<pre><code>frpc.exe -c frpc.toml
-</code></pre>
-<p><br />
---创建<code>frpc.vbs</code>编辑输入  </p>
-<pre><code>set ws=wscript.createobject("wscript.shell")  
-ws.run "frpc.bat /start",0
-</code></pre>
-<p>--双击启动<code>frpc.vbs</code>文件</p>--点击启动<code>frpc.vbs</code>文件</p>
-
-
-    </div>
+  <article id="content" class="markdown-body"></article>
+  <script src="ghmd.js"></script>
+  <script>
+    fetch('../file/frp.md')
+      .then(res => res.text())
+      .then(md => {document.getElementById('content').innerHTML = marked.parse(md);});
+  </script>
 </body>
 </html>

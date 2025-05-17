@@ -3,8 +3,12 @@
 <https://github.com/o0HalfLife0o/TVBoxOSC/releases>{:target="_blank"}  
 <https://github.com/cyao2q/files>{:target="_blank"}  
 
-[123云盘](https://www.123684.com/s/4wHDVv-b8Bq3?提取码:mBrt){:target="_blank"}
+[123云盘](https://www.123684.com/s/4wHDVv-b8Bq3?提取码:mBrt)
 提取码`mBrt`  
+
+本地下载  
+[手机版](https://rr.855955.xyz/OK影视手机版.apk)  
+[电视版](https://rr.855955.xyz/TVBox电视版.apk)  
 
 ## 使用方法  
 把安装包存到U盘插入电视上安装  

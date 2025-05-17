@@ -1,41 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ikun</title>
-    <link rel="icon" type="image/x-icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../css/markdown.css">
-    <base target="_blank">
+  <meta charset="UTF-8">
+  <title>ikun</title>
+  <link rel="stylesheet" href="ghmd.css">
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <base target="_blank">
 </head>
 <body>
-    <div class="markdown-body">
-        <!-- 粘贴到下面 -->
-        <h2 id="">安装环境</h2>
-        <p><code>apt update -y &amp;&amp; apt install -y curl &amp;&amp; apt install -y socat</code></p>
-        <h2 id="acmesh">安装acme.sh</h2>
-        <p><code>curl https://get.acme.sh | sh -s email=my@example.com</code>  </p>
-        <h2 id="-1">申请&amp;更新</h2>
-        <h3 id="http">HTTP</h3>
-        <p>申请<code>~/.acme.sh/acme.sh  --issue -d example.com  --standalone</code><br />
-        更新<code>~/.acme.sh/acme.sh  --renew -d example.com  --standalone</code>  </p>
-        <h3 id="dnsapi">DNS API</h3>
-        <p>添加变量<code>export CF_Token=" ******************************** "</code><br />
-        参考网站<a href="https://github.com/acmesh-official/acme.sh/wiki/dnsapi">https://github.com/acmesh-official/acme.sh/wiki/dnsapi</a><br />
-        申请<code>~/.acme.sh/acme.sh --issue --dns dns_cf -d example.com</code><br />
-        更新<code>~/.acme.sh/acme.sh --renew --dns dns_cf -d example.com</code>  </p>
-        <h2 id="ca">设置默认ca</h2>
-        <p><code>~/.acme.sh/acme.sh --set-default-ca --server letsencrypt</code></p>
-        <h2 id="-2">安装到目录</h2>
-        <p><code>~/.acme.sh/acme.sh --installcert -d example.com --key-file /root/k.key --fullchain-file /root/c.crt</code></p>
-        <h2 id="-3">定义端口</h2>
-        <p>如果用了反代之类的不是 80 端口，则可以手动指定。
-        <code>acme.sh  --issue  -d example.com  --standalone --httpport 88</code>
-        当然它还支持 tls 模式，不是 443 端口的话也可以自行指定。</p>
-        <h3 id="tls">自行指定tls端口</h3>
-        <p><code>acme.sh  --issue  -d example.com  --alpn --tlsport 8443</code><br />
-        <a href="https://blog.csdn.net/luanlz/article/details/139833958">https://blog.csdn.net/luanlz/article/details/139833958</a></p>
-
-    </div>
+  <article id="content" class="markdown-body"></article>
+  <script src="ghmd.js"></script>
+  <script>
+    fetch('../file/ssl.md')
+      .then(res => res.text())
+      .then(md => {document.getElementById('content').innerHTML = marked.parse(md);});
+  </script>
 </body>
 </html>

@@ -1,25 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ikun</title>
-    <link rel="icon" type="image/x-icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../css/markdown.css">
-    <base target="_blank">
+  <meta charset="UTF-8">
+  <title>ikun</title>
+  <link rel="stylesheet" href="ghmd.css">
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <base target="_blank">
 </head>
 <body>
-    <div class="markdown-body">
-        <!-- 粘贴到下面 -->
-        <h3 id="xui">X-UI搭建</h3>
-<p>FinalShell SSH工具 <a href="https://www.hostbuf.com/t/988.html">下载</a><br />
-系统Ubuntu/Debian<br />
-<code>apt update -y &amp;&amp; apt install -y curl</code><br />
-<code>bash &lt;(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install.sh) 0.3.4.4</code>  </p>
-<h3 id="bbr">开启BBR加速</h3>
-<p><code>wget -N --no-check-certificate "https://github.000060000.xyz/tcpx.sh" &amp;&amp; chmod +x tcpx.sh &amp;&amp; ./tcpx.sh</code><br />
-<a href="https://bulianglin.com/archives/nicename.html">视频</a><br />
-<a href="https://github.com/FranzKafkaYu/x-ui">GitHub</a></p>
-    </div>
+  <article id="content" class="markdown-body"></article>
+  <script src="ghmd.js"></script>
+  <script>
+    fetch('../file/x.md')
+      .then(res => res.text())
+      .then(md => {document.getElementById('content').innerHTML = marked.parse(md);});
+  </script>
 </body>
 </html>

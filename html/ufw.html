@@ -1,28 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ikun</title>
-    <link rel="icon" type="image/x-icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../css/markdown.css">
-    <base target="_blank">
+  <meta charset="UTF-8">
+  <title>ikun</title>
+  <link rel="stylesheet" href="ghmd.css">
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <base target="_blank">
 </head>
 <body>
-    <div class="markdown-body">
-        <!-- 粘贴到下面 -->
-        <p>安装<code>apt-get install ufw</code><br />
-            开启<code>ufw enable</code><br />
-            关闭<code>ufw disable</code><br />
-            启动<code>ufw status</code><br />
-            重启<code>ufw reload</code><br />
-            开放22端口<code>ufw allow 22</code><br />
-            关闭22端口<code>ufw delete allow 22</code><br />
-            拒接所有外来<code>ufw default deny</code><br />
-            开发地址<code>ufw allow from 0.0.0.0/0</code><br />
-            开发地址to端口<code>ufw allow from 192.168.121.2 to any port 3306</code></p>
-
-
-    </div>
+  <article id="content" class="markdown-body"></article>
+  <script src="ghmd.js"></script>
+  <script>
+    fetch('../file/ufw.md')
+      .then(res => res.text())
+      .then(md => {document.getElementById('content').innerHTML = marked.parse(md);});
+  </script>
 </body>
 </html>

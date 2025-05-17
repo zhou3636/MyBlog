@@ -1,39 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ikun</title>
-    <link rel="icon" type="image/x-icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../css/markdown.css">
-    <base target="_blank">
+  <meta charset="UTF-8">
+  <title>ikun</title>
+  <link rel="stylesheet" href="ghmd.css">
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <base target="_blank">
 </head>
 <body>
-    <div class="markdown-body">
-        <!-- 粘贴到下面 -->
-        <h2 id="">地址</h2>
-        <p><a href="https://tvbox.clbug.com">https://tvbox.clbug.com</a>  <br>
-        <a href="https://github.com/o0HalfLife0o/TVBoxOSC/releases">https://github.com/o0HalfLife0o/TVBoxOSC/releases</a><br />
-        <a href="https://github.com/cyao2q/files">https://github.com/cyao2q/files</a> </p>
-        <p><a href="https://www.123684.com/s/4wHDVv-b8Bq3?提取码:mBrt">123云盘</a>提取码<code>mBrt</code>  </p>
-        <p>本地下载&nbsp;&nbsp;<a href="https://rr.855955.xyz/TVBox%E7%94%B5%E8%A7%86%E7%89%88.apk">电视版</a>&nbsp;&nbsp;
-                               <a href="https://rr.855955.xyz/OK%E5%BD%B1%E8%A7%86%E6%89%8B%E6%9C%BA%E7%89%88.apk">手机版</a></p>
-        <h2 id="-1">使用方法</h2>
-        <p>把安装包存到U盘插入电视上安装<br />
-        安装完后还要配置接口才能使用  </p>
-        <h3 id="1">1.打开软件设置</h3>
-        <p><img src="../image/tvbox/1.jpg" alt="" width="600"/>  </p>
-        <h3 id="2">2.配置地址</h3>
-        <p><img src="../image/tvbox/2.jpg" alt="" width="600"/>  </p>
-        <h3 id="3">3.用手机打开电视上的地址</h3>
-        <p><img src="../image/tvbox/3.jpg" alt="" width="600"/>  </p>
-        <h3 id="4">4.手机上配置接口</h3>
-        <h4 id="-2">先点击右下的设置，输入，确认。</h4>
-        <p>个人使用的接口<code>http://www.xn--sss604efuw.com/tv</code><br />
-        <img src="../image/tvbox/4.jpg" alt="" width="600"/>  </p>
-        <h3 id="5ok">5.电视上出现了你输入的接口，点确定，ok完成。</h3>
-
-
-    </div>
+  <article id="content" class="markdown-body"></article>
+  <script src="ghmd.js"></script>
+  <script>
+    fetch('../file/tvbox.md')
+      .then(res => res.text())
+      .then(md => {document.getElementById('content').innerHTML = marked.parse(md);});
+  </script>
 </body>
 </html>
