@@ -21,10 +21,10 @@ closeBtn.onclick = function () {
 };
 
 // 点击遮罩关闭弹窗
-modal.onclick = function (e) {
-  if (e.target === modal) {
-    modal.classList.remove('active');
-    video.pause();
-    video.currentTime = 0;
-  }
-};
+// modal.onclick = function (e) {
+//   if (e.target === modal) {
+//     modal.classList.remove('active');
+//     video.pause();
+//     video.currentTime = 0;
+//   }
+// };
