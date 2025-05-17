@@ -9,7 +9,7 @@
 html, body {
     /* 和父元素的一样高，body 的父亲是 html，html 的父亲是浏览器窗口 */
     height: 100%;
-} 
+}
 a:visited {
     color: rgb(0, 0, 0);
 }
@@ -22,7 +22,7 @@ a:visited {
     justify-content: start;
     align-items: center;
 }
-.nav a:hover{
+.nav .title a:hover{
     color: rgb(5, 0, 26);
 }  
 /* 导航栏中的 log */
