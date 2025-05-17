@@ -125,14 +125,14 @@ a:visited {
     text-align: center;
     line-height: 32px;
     border-radius: 8px;
-    background-color: #7cffeb;
+    background-color: #ffeef7;
     border: 1px solid #9b9b9b;
 }
 .card .aaa:hover {
     font-size: 18px; /* 悬停时字体变大 */
 }
 .card .aaa:hover {
-    background-color: #b6fe6e;
+    background-color: #ec5aff;
     cursor: default;
     border-radius: 8px;
 }
