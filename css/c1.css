@@ -85,6 +85,7 @@ a:visited {
     width: 100%;
     background-color: #ffffff;
     border-radius: 8px;
+    overflow: hidden;
 }
 
 /* 用户信息卡片，也会在多个页面中用到 */

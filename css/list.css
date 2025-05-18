@@ -23,18 +23,14 @@ a:hover{
 .blog {
     width: 100%;
     padding: 5px 10px;
-    border-radius: 8px;
-}
-/* 列表下划线 */
-.line {
-    width: calc(100% - 18px);
-    height: 1px;
-    margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.04);
+    /* border-radius: 8px; */
+    border-bottom: 1px solid #eee;
+    
 }
 /* 设置鼠标悬停时div的颜色 */
 .blog:hover {
-    background-color: rgba(0, 0, 0, 0.04);
+    background-color: #eee;
+    border-bottom: 1px solid #aaa;
 }
 /* 博客的标题 */
 .blog .title {
