@@ -1,11 +1,10 @@
-### 转自<https://github.com/QingJ01/Speed_test>
 # Speed_test
 
 一个简洁的网页速度测试集合，包含四种测试项目，帮助你了解自己在不同方面的反应能力和操作速度。
 
 ## 🌐 在线体验
 
-- ### ⚡[点击打开链接](../others/Speedtest/index.html)
+[https://qingj01.github.io/Speed_test/](https://qingj01.github.io/Speed_test/)
 
 ## ✨ 功能特性
 
